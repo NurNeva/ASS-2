@@ -21,7 +21,7 @@ nav{
 header{
     font-family: "Rampart One", cursive;
     color: blanchedalmond;
-    font-size: 2.5rem;
+    font-size: 6rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     text-align: center;
     margin-top: 20px;
@@ -35,14 +35,14 @@ header{
     align-items:center;
     gap: 1rem;
     margin-top:0;
-    height: 30px;
+    height: 50px;
 
 }
 .navtop ul li a{
 
     text-decoration: none;
     color: white;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: bold;
 
 }
@@ -52,7 +52,7 @@ header{
     display: flex;
     background-color: rgb(234, 180, 115);
     padding: 10px;
-    width: 60px;
+    width: 100px;
     justify-content: center;
     border-radius: 10px;
     position: sticky;
@@ -64,7 +64,7 @@ header{
 .content{
    
    
-    font-size: 1.2rem;
+    font-size: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +87,7 @@ header{
 .empty{
 
 border-bottom: 1px solid whitesmoke; 
-  width: 85px; 
+  width: 210px; 
   margin-bottom: 20px;
   margin: 0 auto;
 
@@ -95,7 +95,7 @@ border-bottom: 1px solid whitesmoke;
 
 h1{
     text-align: center;
-  font-size: 16px;
+  font-size: 40px;
   color: whitesmoke;
   
 }
@@ -110,7 +110,7 @@ h1{
 }
 
 .projects img{
-    width: 250px;
+    width: 400px;
     border-radius: 10px;
    
 }
@@ -135,7 +135,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 2rem;
     list-style: none;
     
 }
@@ -146,7 +146,7 @@ h1{
     text-decoration: none;
     color: rgb(234, 185, 126);
     font-weight: 800;
-    font-size: 14px;
+    font-size: 30px;
 
 }
 
@@ -164,12 +164,12 @@ form{
 input[type="text"],
 input[type="email"]{
    
-  width: 50%;
+  width: 30%;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 10px;
   border: 1px solid bisque;
-  height: 40px;
+  height: 60px;
   background-color:rgb(93, 109, 124)
 }
 
@@ -189,8 +189,8 @@ input[type="email"]:focus{
 
   textarea{
 
-    width: 50%;
-    height: 80px;
+    width: 30%;
+    height: 100px;
     border-radius: 5px;
     background-color:rgb(93, 109, 124);
     border: 1px solid bisque;
@@ -201,22 +201,38 @@ input[type="email"]:focus{
    border-color: orangered;
   }
 
-  input::placeholder,
 textarea::placeholder {
-  color: #e8e3e3; 
+ 
+  font-weight: bold; 
   text-align: center;
+  font-size: 20px;
+  
 }
 
+#text::placeholder {
+  font-weight: bold; 
+  text-align: center;
+  font-size: 20px;
+}
+
+#email::placeholder {
+  font-weight: bold; 
+  text-align: center;
+  font-size: 20px;
+}
+
+
 button[type="submit"]{
-    width: 50%;
-    height: 30px;
+    width: 30%;
+    height: 60px;
     border-radius: 5px;
-    background-color: bisque;
+    background-color: rgb(245, 191, 125);
     border: none;
     margin-top: 5px;
     margin-bottom: 50px;
     color: gray;
     font-weight: bold;
+    font-size: 25px;
 }
 
 button[type="submit"]:hover{
@@ -233,8 +249,8 @@ button[type="submit"]:hover{
   
   #topButton {
     position: fixed;
-    bottom: 5px;
-    width: 80px;
+    bottom: 10px;
+    width: 110px;
     right: 20px;
     background-color: rgb(233, 185, 127);
     padding: 10px;
@@ -243,7 +259,7 @@ button[type="submit"]:hover{
     text-align: center;
     color: whitesmoke; 
     text-decoration: none;
-    font-size: 14px;
+    font-size: 30px;
     font-weight: bold;
   
 
