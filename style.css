@@ -44,6 +44,7 @@ header{
     color: white;
     font-size: 20px;
     font-weight: bold;
+    transition: color 0.3s, box-shadow 0.3s;
 
 }
 
@@ -59,6 +60,15 @@ header{
  
     
    
+}
+
+
+.navtop ul li a:hover{
+
+cursor: pointer;
+background-color: #726959;
+color: orangered;
+
 }
 
 .content{
@@ -128,6 +138,7 @@ h1{
     margin-top: 10px;
     width: 100%;
     margin-bottom: 10%;
+  
     
 }
 
@@ -138,6 +149,7 @@ h1{
     gap: 2rem;
     list-style: none;
     
+    
 }
 
 .social ul li a{
@@ -147,8 +159,17 @@ h1{
     color: rgb(234, 185, 126);
     font-weight: 800;
     font-size: 30px;
+    border: 1px solid rgba(0, 0, 0, 0); 
+    border-radius: 10px; 
+   
 
 }
+
+.social ul li a:hover{
+  background-color: orangered;
+  border-color: orangered;
+}
+
 
 form{
     margin-top: 10px;
@@ -237,16 +258,13 @@ button[type="submit"]{
 
 button[type="submit"]:hover{
    background-color: orangered;
+   height: 4rem;
    cursor: pointer;
 
 
 }
 
 
-
-   
-
-  
   #topButton {
     position: fixed;
     bottom: 10px;
@@ -269,4 +287,9 @@ button[type="submit"]:hover{
 
     background-color: orangered; 
     cursor: pointer;
+}
+
+img:hover{
+  cursor: pointer;
+  opacity: 0.5;
 }
