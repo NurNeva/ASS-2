@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(93, 109, 124);
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+
+
+header{
+    font-family: "Rampart One", cursive;
+    color: blanchedalmond;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.navtop ul{
+    display: flex;
+    list-style: none;
+    justify-content:center;
+    align-items:center;
+    gap: 1rem;
+    margin-top:0;
+    height: 30px;
+
+}
+.navtop ul li a{
+
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+.navtop ul li{
+
+    display: flex;
+    background-color: rgb(234, 180, 115);
+    padding: 10px;
+    width: 60px;
+    justify-content: center;
+    border-radius: 10px;
+    position: sticky;
+ 
+    
+   
+}
+
+.content{
+   
+   
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.content p{
+
+    font-family: "Rampart One", cursive;
+    color: blanchedalmond;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.735);
+    letter-spacing: 3px;
+    line-height: 3rem;
+    display: flex;
+}
+
+.empty{
+
+border-bottom: 1px solid whitesmoke; 
+  width: 85px; 
+  margin-bottom: 20px;
+  margin: 0 auto;
+
+}
+
+h1{
+    text-align: center;
+  font-size: 16px;
+  color: whitesmoke;
+  
+}
+
+.projects{
+
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    z-index: 100;
+}
+
+.projects img{
+    width: 250px;
+    border-radius: 10px;
+   
+}
+
+.contact{
+
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.social{
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 10%;
+    
+}
+
+.social ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    list-style: none;
+    
+}
+
+.social ul li a{
+
+    margin-top: 10%;
+    text-decoration: none;
+    color: rgb(234, 185, 126);
+    font-weight: 800;
+    font-size: 14px;
+
+}
+
+form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    align-items: center;
+    
+   
+
+}
+
+input[type="text"],
+input[type="email"]{
+   
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid bisque;
+  height: 40px;
+  background-color:rgb(93, 109, 124)
+}
+
+input[type="text"]:focus{
+    outline: none; 
+   border-color: orangered;
+
+}
+
+input[type="email"]:focus{
+    outline: none; 
+    border-color: orangered;
+
+}
+
+
+
+  textarea{
+
+    width: 50%;
+    height: 80px;
+    border-radius: 5px;
+    background-color:rgb(93, 109, 124);
+    border: 1px solid bisque;
+  }
+
+  textarea:focus{
+    outline: none; 
+   border-color: orangered;
+  }
+
+  input::placeholder,
+textarea::placeholder {
+  color: #e8e3e3; 
+  text-align: center;
+}
+
+button[type="submit"]{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: bisque;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    color: gray;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover{
+   background-color: orangered;
+   cursor: pointer;
+
+
+}
+
+
+
+   
+
+  
+  #topButton {
+    position: fixed;
+    bottom: 5px;
+    width: 80px;
+    right: 20px;
+    background-color: rgb(233, 185, 127);
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 100; 
+    text-align: center;
+    color: whitesmoke; 
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+  
+
+  }
+  
+  #topButton:hover {
+
+    background-color: orangered; 
+    cursor: pointer;
+}
